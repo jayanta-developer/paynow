@@ -1,0 +1,78 @@
+/* @font-face {
+  font-family: "PoppinsBold";
+  src: url("./Assets/Fonts/Poppins/Poppins-Bold.ttf") format("truetype");
+}
+@font-face {
+  font-family: "Poppins";
+  src: url("./Assets/Fonts/Poppins/Poppins-Regular.ttf") format("truetype");
+}
+@font-face {
+  font-family: "Satoshi";
+  src: url("./Assets/Fonts/Satoshi_Complete/Fonts/OTF/Satoshi-Medium.otf")
+    format("truetype");
+} */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  user-select: none;
+}
+
+.pointer {
+  cursor: pointer;
+}
+/* Target the scrollbar thumb and track in WebKit-based browsers (Chrome, Safari) */
+::-webkit-scrollbar {
+  width: 5px;
+  /* Width of the scrollbar */
+}
+
+/* Set the color of the scrollbar thumb in WebKit-based browsers */
+::-webkit-scrollbar-thumb {
+  background-color: #49494973;
+  /* Color of the scrollbar thumb */
+}
+
+/* Set the color of the scrollbar track in WebKit-based browsers */
+::-webkit-scrollbar-track {
+  background-color: #4d4d4d6b;
+  /* Color of the scrollbar track */
+}
+
+/* Target the scrollbar thumb and track in Mozilla-based browsers (Firefox) */
+::-moz-scrollbar {
+  width: 5px;
+  /* Width of the scrollbar */
+}
+
+/* Set the color of the scrollbar thumb in Mozilla-based browsers */
+::-moz-scrollbar-thumb {
+  background-color: #55555541;
+  /* Color of the scrollbar thumb */
+}
+
+/* Set the color of the scrollbar track in Mozilla-based browsers */
+::-moz-scrollbar-track {
+  background-color: #f1f1f1;
+  /* Color of the scrollbar track */
+}
+
+/* For WebKit Browsers (Chrome, Safari, Edge) */
+body::-webkit-scrollbar {
+  height: 5px; /* Sets the height of the scrollbar */
+}
+
+body::-webkit-scrollbar-thumb {
+  background-color: #888; /* Color of the scrollbar thumb */
+  border-radius: 10px; /* Rounds the scrollbar thumb */
+}
+
+body::-webkit-scrollbar-track {
+  background-color: #f1f1f1; /* Background color of the scrollbar track */
+}
+
+/* For Firefox */
+body {
+  scrollbar-width: thin; /* Makes the scrollbar thin */
+  scrollbar-color: #888 #f1f1f1; /* Thumb color and track color */
+}
